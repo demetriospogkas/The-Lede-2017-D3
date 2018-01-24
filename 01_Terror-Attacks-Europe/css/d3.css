@@ -1,0 +1,169 @@
+  svg { 
+    display: block;
+    margin: 0 auto;
+    background: ;#f7f7f7;
+    opacity: ;
+  }
+
+  #chart-6 svg {
+    display: inline;
+    margin: 5px;
+  }
+
+  .text-class {
+    font-family: Lato;
+    text-align: center;
+  }
+
+  .node-texts {
+    font-family: Lato-Thin;
+    text-align: center;
+    }
+
+  .multiples-title {
+    font-family: Lato-Light;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .tick text {
+    font-family: Lato-Light;
+  }
+
+  .domain {
+    stroke: lightgray;
+    opacity: 1;
+  }
+
+  .tick line {
+      stroke: lightgray;
+      opacity: 0.3;
+    }
+
+  .axis-y-axis-left path {
+    visibility: hidden;
+  }
+
+  .axis-y-axis-right path {
+    visibility: hidden;
+  }
+
+  .svg-class-Africa .axis-y-axis-right text {
+    visibility: hidden;
+  }
+
+  .svg-class-Asia .axis-y-axis-right text {
+    visibility: hidden;
+  }
+
+  .svg-class-Australasia .axis-y-axis-right text {
+    visibility: hidden;
+  }
+
+  .svg-class-Europe .axis-y-axis-right text {
+    visibility: hidden;
+  }
+
+  .svg-class-North .axis-y-axis-right text {
+    visibility: hidden;
+  }
+
+
+
+/*      svg { 
+        border: solid black 1px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h3 { 
+        margin-top: 3rem; 
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      img.block {
+        display: block;
+        border: solid #333 1p;
+        margin: 0 auto;
+      }
+
+      svg {
+        margin-bottom: 15px;
+      }
+
+      .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+        pointer-events: none;
+      }
+
+      /* Creates a small triangle extender for the tooltip */
+      .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 10px;
+        width: 100%;
+        line-height: 1;
+        color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        pointer-events: none;
+      }
+
+      /* Northward tooltips */
+      .d3-tip.n:after {
+        content: "\25BC";
+        margin: -1px 0 0 0;
+        top: 100%;
+        left: 0;
+        text-align: center;
+      }
+
+      /* Eastward tooltips */
+      .d3-tip.e:after {
+        content: "\25C0";
+        margin: -4px 0 0 0;
+        top: 50%;
+        left: -8px;
+      }
+
+      /* Southward tooltips */
+      .d3-tip.s:after {
+        content: "\25B2";
+        margin: 0 0 1px 0;
+        top: -8px;
+        left: 0;
+        text-align: center;
+      }
+
+      /* Westward tooltips */
+      .d3-tip.w:after {
+        content: "\25B6";
+        margin: -4px 0 0 -1px;
+        top: 50%;
+        left: 100%;
+      }
+
+      #chart-3 .bar,
+      #chart-4 .bar  {
+        fill: lightblue;
+      }
+
+      #chart-3 .bar:hover,
+      #chart-4 .bar:hover {
+        fill: steelblue;
+      }*/
