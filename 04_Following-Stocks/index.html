@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <link href="css/grid.css" rel="stylesheet" type="text/css" />
+  <link href="css/d3.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"> 
+</head>
+
+
+  <body>
+    <div class="text">
+      <p><b>Can you identify what stock the 'high peaks' and the 'deep valleys' below belong to?</b></p>
+    </div>
+
+      <iframe src="chart1.html" frameborder="0" width="100%" height="450px" scrolling="no"></iframe>
+      <div class="buttons">
+        <button type="button" class="btn btn-secondary" id="button-success">AAPL</button>
+        <button type="button" class="btn btn-secondary" id="button-fail">MSFT</button>
+        <button type="button" class="btn btn-secondary" id="button-fail">AMZN</button>
+      </div>
+
+    <iframe src="chart2.html" frameborder="0" width="100%" height="450px" scrolling="no"></iframe>
+    <div class="buttons">
+      <button type="button" class="btn btn-secondary" id="button-fail">TSLA</button>
+      <button type="button" class="btn btn-secondary" id="button-fail">GM</button>
+      <button type="button" class="btn btn-secondary" id="button-success">FORD</button>
+    </div>
+
+
+    <iframe src="chart3.html" frameborder="0" width="100%" height="450px" scrolling="no"></iframe>
+    <div class="buttons">
+      <button type="button" class="btn btn-secondary" id="button-success">JPM</button>
+      <button type="button" class="btn btn-secondary" id="button-fail">BAC</button>
+      <button type="button" class="btn btn-secondary" id="button-fail">CITI</button>
+    </div>    
+
+
+    <iframe src="chart4.html" frameborder="0" width="100%" height="450px" scrolling="no"></iframe>
+    <div class="buttons">
+      <button type="button" class="btn btn-secondary" id="button-fail">ORCL</button>
+      <button type="button" class="btn btn-secondary" id="button-success">FB</button>
+      <button type="button" class="btn btn-secondary" id="button-fail">TWTR</button>
+    </div>
+
+
+    <div class="resultsContainer">
+      <div class="results" id="results">
+          <div class="text"></div>
+          <div class="text"></div>
+          <div class="text">
+            <p>You've identified accurately&nbsp;<span id="successes"></span>&nbsp;stocks out of <span id="totals"></span> guesses!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="source">
+      <p>All stock and index data from: <a href="https://www.bloomberg.com/" target="blank">Bloomberg.com</a>.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/06-results.js"></script>
+  </body>
+</html>

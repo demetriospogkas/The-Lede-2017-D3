@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(../fonts/Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url(../fonts/Lato-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(../fonts/Lato-Black.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.headline {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: 0%;   
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.byline {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: -1%;   
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: 0%;   
+    margin-left: 27%;
+    margin-right: 27%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: ;
+    font-size: 16px;
+    text-align: justify;    
+}
+
+.text a {
+    text-decoration: none;
+    color: #e36f57;
+}
+
+.text-title {
+    font-family: 'Lato-Bold';
+}
+.legend-texts {
+    font-family: 'Lato-Light';
+}
+.text-title {
+    font-family: 'Lato-Bold';
+}
+.text-source {
+    font-family: 'Lato-Light';
+}
+
+.html-title {
+    font-size: 23px;
+    font-family: Lato-Bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.story-title {
+  font-weight: bold !important;
+}
+
+
+.other-projects {
+  border: 1px; solid red;
+  padding: 15px;
+  margin-top: 0%;   
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.more-stories {
+  border: 1px; solid red;
+  padding: 15px;
+  margin-top: -2%;   
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: ;
+  font-size: 16px;
+  text-align: justify;  
+}
+
+.more-stories a {
+  text-decoration: none;
+  color: gray;
+}
+
+[class*="buttons"] {
+  margin-left: 40%;
+}

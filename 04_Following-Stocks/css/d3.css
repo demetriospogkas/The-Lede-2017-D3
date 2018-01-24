@@ -1,0 +1,67 @@
+  svg { 
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .buttons { 
+    display: inline-block !important;
+    text-align: center;
+    width: 300px;
+  }
+
+[class*="textElmnt"] {
+  font-family: Lato-Bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+#successes {
+  background-color: #5cb85c;
+  color:white;
+}
+
+
+.domain {
+  stroke: red;
+  opacity: 1;
+  visibility: hidden;
+}
+
+.tick line {
+  visibility: hidden;
+}
+
+.tick text {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+
+.legendTexts {
+  font-family: Lato-Thin;
+  font-size: 14px;  
+}
+
+[class*="points-"] {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+.source {
+  margin-left: 28%;
+  margin-right: 28%;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+}
+.source a {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
