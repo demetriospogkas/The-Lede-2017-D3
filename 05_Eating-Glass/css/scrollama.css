@@ -1,0 +1,35 @@
+[class*="col-lg"] {
+  background-color: ;
+}
+
+[class*="col-lg-8"] {
+  background-color: ;
+  height: 500px !important;
+  width: 700px !important;
+  max-width: 100% !important;
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.step {
+  padding-bottom: 150px;
+  margin-bottom: 50px;
+  background-color: ;
+}
+
+#all-players {
+  margin-bottom: 350px;
+}
+
+.step:last-of-type {
+  margin-bottom: ;
+}
+
+svg {
+  background-color: ;
+  margin-top: -25px !important;
+}

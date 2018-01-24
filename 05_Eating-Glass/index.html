@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src='js/uikit.min.js'></script>
+  <script src='js/sticky.min.js'></script>
+  <link href="css/sticky.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/scrollama.css" rel="stylesheet" type="text/css" />
+  
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <link href="css/d3.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <div class="container" id="container">    
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="step" id="all-players">
+            <span class="step text step-text" id="intermediate"></p>
+          </div>
+          <div class="step" id="with-pos">
+            <p class="text step-text">NBA stats database doesn't offer position information for a handful of players. Let's remove them from our final dataset.</p>
+          </div>
+          <div class="step" id="over-12-mpg">
+            <p class="text step-text">Also, let's consider only those who had a significant contribution to their team's game. To do that, let's keep only those who played 12 minutes and over (that is at least one full quarter) per game.</p>
+          </div>
+          <div class="step" id="scatter">
+            <p class="text step-text">Now let's arrange our 360 remaining NBA players according to their height and rebound skills.</p>
+          </div>
+          <div class="step" id="conference">
+            <p class="text step-text">Rebound skills are equally distributed between the <span class="east-conf">East</span> and the <span class="west-conf">West</span> Conferences.</p>
+          </div>
+          <div class="step" id="division">
+            <p class="text step-text">On the other hand, the <span class="div-se">Southeastern</span>, the <span class="div-pac">Pacific</span> and the <span class="div-nw">Northwestern</span> Divisions have the top-3 rebounders, while the <span class="div-atl">Atlantic</span> and the <span class="div-ctl">Central</span> Divisions have the two tallest players.</p>
+          </div>
+          <div class="step" id="scatter-highest">
+            <p class="text step-text">Naturally, <span class="active-player">the tallest players</span> are collecting more rebounds per game.</p>
+          </div>
+          <div class="step" id="scatter-russell">
+            <p class="text step-text">And there is of course <span class="active-player">Russell Westbrook</span>, who at 6'3" he grabbed 10.7 rebounds per game last year in over 34 minutes per game in 81 games with Oklahoma City Thunders. We will not include him in our quest for the shortest rebounder, because... he's Russell Westbrook, he's an outlier by his own right.</p>
+          </div>
+          <div class="step" id="scatter-shortest">
+            <p class="text step-text">Therefore this guy is the shortest player who got the most rebounds per game. He's <span class="active-player">Avery Bradley</span> and last year he played for the Boston Celtics. With 6'4" height, he got 6.1 rebounds per game in 55 games played. This year he plays for the Detroit Pistons where he only receives 2.4 RPG in 28 Games Played (as of December 16).</p>
+          </div>
+          <div class="step" id="avery-history">
+            <p class="text step-text">Avery however wasn't always the rebounder kind of guy. Actually his 2016-2017 6.1 RPG was a career high, near to double from his previous record of 2013-2014 season with 3.8 Rebounds per Game.</p>
+          </div>
+          <div class="step"></div>
+        </div>
+        <div data-uk-sticky="{top:96, boundary: true}" class="col-lg-8" id="chart">
+        </div>
+
+
+        <div class="col-lg-12 credit">
+          <p>All stats and Avery Bradley pic via <a href="http://stats.nba.com" target="blank">stats.nba.com</a>. Feature image via <a href="https://pixabay.com" target="blank">pixabay.com</a>. Teams HTML color codes via <a href="http://jim-nielsen.com/teamcolors/" target="blank">Jim Nielsen</a>.</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src='https://unpkg.com/scrollama'></script>
+
+    <script>
+    var scroller = scrollama();
+
+    scroller
+      .setup({
+        offset: 0.53,
+        step: '.step',
+        debug: false,
+        container: 'container'
+      })
+      .onStepEnter(function(response) {
+        d3.select(response.element).dispatch('stepin')
+      })
+    </script>
+    <script src="js/chart.js"></script>
+</body>
+</html>

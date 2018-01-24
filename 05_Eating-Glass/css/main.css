@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+.headline {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: 0%;   
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.byline {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: -1%;   
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.credit {
+    border: 1px; solid red;
+    padding: 15px;
+    margin-top: -1%;   
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text {
+    border: 1px; solid red;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: ;
+    font-size: 18px;
+    text-align: justify;    
+}
+
+.text a {
+    text-decoration: none;
+    color: #e36f57;
+}
+
+.main-text {
+  margin-left: 25%;
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;  
+}
+
+#chart {
+  height: 500px !important;
+  width: 700px !important;
+}
+
+.step-text {
+    text-align: center;
+    padding-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.more-stories-title {
+  border: 1px; solid red;
+  padding: 15px;
+  margin-top: 0%;   
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.more-stories-content {
+  border: 1px; solid red;
+  padding: 15px;
+  margin-top: -2%;   
+  margin-left: 35%;
+  margin-right: 30%;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: ;
+  font-size: 16px;
+  text-align: justify;  
+}
+
+.more-stories-content a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main-img {
+  background-image: url('../images/basketball2.jpg');
+  background-size: cover;
+  background-position: 50% 40%;
+  height: 599px;
+  
+}
+
+.half-court {
+  width: 80%;
+  height: 100%;
+}
+
+.text-centre {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.active-player {
+  font-weight: bold;
+  color: #0B143B;
+}
+
+.east-conf {
+  font-weight: bold;
+  color: #CE0B28;  
+}
+
+.west-conf {
+  font-weight: bold;
+  color: #1D4289;  
+}
+
+.div-se {
+  font-weight: bold;
+  color: rgb(43, 131, 186);  
+}
+
+.div-pac {
+  font-weight: bold;
+  color: rgb(171, 221, 164);  
+}
+
+.div-nw {
+  font-weight: bold;
+  color: rgb(229, 229, 171);  
+}
+
+.div-atl {
+  font-weight: bold;
+  color: rgb(215, 25, 28);  
+}
+
+.div-ctl {
+  font-weight: bold;
+  color: rgb(253, 174, 97);  
+}
