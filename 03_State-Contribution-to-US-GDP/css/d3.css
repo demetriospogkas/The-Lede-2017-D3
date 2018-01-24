@@ -1,0 +1,119 @@
+  svg { 
+    display: block;
+    margin: 0 auto;
+    background: ;#f7f7f7;
+    opacity: ;
+  }
+
+  .text-diseases {
+    font-family: Lato-Thin;
+    font-size: 12px;
+    text-align: center;
+    }
+
+  .domain {
+    stroke: red;
+    opacity: 1;
+    visibility: hidden;
+  }
+
+#chart1-map {
+  cursor: pointer;
+}
+
+#chart1-scatterplot {
+  cursor: pointer;
+}
+
+.tick line {
+  stroke: lightgray;
+  height: 10px;
+}
+
+.tick text {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+.tickDashedLine line {
+  opacity: 0.5;
+  stroke-dasharray: 5 5; 
+}
+
+.noTickLine line {
+  visibility: hidden
+}
+
+.legendTexts {
+  font-family: Lato-Thin;
+  font-size: 14px;  
+}
+
+.sourceCredit {
+  font-family: Lato-Thin;
+  font-size: 12px;
+  font-style: italic;
+}
+
+[class*="points-"] {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+.hover-title {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.hover-deseases-type {
+  font-family: Lato-Bold;
+  font-size: 20px;
+}
+
+.hover-deseases-text {
+  font-family: Lato;
+  font-size: 16px;
+  text-align: middle;
+  font-style: italic;
+}
+
+.hover-amounts-type {
+  font-family: Lato-Bold;
+  font-size: 20px;
+}
+
+.hover-amounts-text {
+  font-family: Lato;
+  font-size: 16px;
+  text-align: middle;
+  font-style: italic;
+}
+
+.hover-deseases-text-hovered {
+  font-family: Lato;
+  font-size: 16px;
+  text-align: middle;  
+}
+
+.hover-amounts-text-hovered {
+  font-family: Lato;
+  font-size: 16px;
+  text-align: middle;
+}
+
+.source {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+  background-color: rgb(55,71,79);
+}
+.source-link {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
