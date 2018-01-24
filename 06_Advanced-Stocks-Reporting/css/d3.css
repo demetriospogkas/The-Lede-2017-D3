@@ -1,0 +1,112 @@
+  svg { 
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .buttons { 
+    display: inline-block !important;
+    text-align: center;
+    width: 300px;
+  }
+
+[class*="textElmnt"] {
+  font-family: Lato-Bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+#successes {
+  background-color: #5cb85c;
+  color:white;
+}
+  .text-diseases {
+    font-family: Lato-Thin;
+    font-size: 12px;
+    text-align: center;
+    }
+
+  .domain {
+    stroke: red;
+    opacity: 1;
+    visibility: hidden;
+  }
+
+.tick line {
+  visibility: hidden;
+}
+
+.tick text {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+
+.legendTexts {
+  font-family: Lato-Thin;
+  font-size: 14px;  
+}
+
+.sourceCredit {
+  font-family: Lato-Thin;
+  font-size: 12px;
+  font-style: italic;
+}
+
+[class*="points-"] {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+
+.source {
+  margin-left: 28%;
+  margin-right: 28%;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+}
+.source a {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-align: middle;
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.chart-annots {
+  font-family: Lato-Thin;
+  font-size: 14px;
+  font-style: italic;
+}
+.chart-annots-boll {
+  font-family: Lato-Thin;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.legend-annots {
+  font-family: Lato-Thin;
+  font-size: 14px;
+}
+.chart1-class {
+  margin-left: -9%;
+}
+
+.boll-buttons {
+  margin-left: 30%;
+}
+
+#loading {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 12%;
+}
+
+#wrong-dates {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 17%;
+}
